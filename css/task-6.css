@@ -1,0 +1,48 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+div#controls {
+  background-color: #f6f6fe;
+  display: flex;
+  gap: 16px;
+  padding: 32px;
+  border-radius: 8px;
+}
+
+input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  width: 150px;
+}
+
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  border: none;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: white;
+}
+
+[data-create] {
+  background-color: #4e75ff;
+}
+
+[data-destroy] {
+  background-color: #ff4e4e;
+}
+
+div#boxes {
+  background-color: #f6f6fe;
+  margin-top: 16px;
+  padding: 32px;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+}
